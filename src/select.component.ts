@@ -97,7 +97,7 @@ export class SelectComponent implements ControlValueAccessor, OnChanges, OnInit 
         this.handleInputChanges(changes);
     }
 
-    ngAfterViewInit() {
+    ngAfterContentInit() {
         this.updateState();
     }
 
